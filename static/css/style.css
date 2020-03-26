@@ -12,8 +12,7 @@ html {
 header {
   /* Set text alignment to center */
   text-align: center;
-  background-image:url(
-}
+ }
 
 main {
   /* Set maximum width to be 800 pixels */
@@ -29,5 +28,4 @@ main {
   background: #3c3c3c;
   color: white;
   font-size: 30px;
-    Set-Cookie: key=value; SameSite=Strict, Secure
-}
+  }

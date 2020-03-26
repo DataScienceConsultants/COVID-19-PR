@@ -29,3 +29,7 @@ main {
   color: white;
   font-size: 30px;
   }
+img {
+  /* Set max width to be 100% of the containing element */
+  max-width: 100%;
+}

@@ -22,3 +22,11 @@ main {
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
   padding: 0px 20px;
 }
+ .header {
+  padding: 60px;
+  text-align: center;
+  background: #3c3c3c;
+  color: white;
+  font-size: 30px;
+    Set-Cookie: key=value; SameSite=Strict, Secure
+}

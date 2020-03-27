@@ -563,11 +563,10 @@ var RxIcon = new L.Icon({
 
 // ADD THE OTHER FEAUTURES//////////////////////////////////////////////////////////
 function createFeatures (feature,layer){
-    layer.bindPopup("<h3>" + feature.properties.place +
-      "</h3><br>" + feature.properties.address + "</br>" + "<br>" +  feature.properties.service + "</br>" + "<br>" + feature.properties.age + "</br>"+ "<br>" +
-      feature.properties.needs_to_register + "</br>" + "<br>" + feature.properties.income_based + "</br>" +
-      "<br>" + feature.properties.open_date + "</br" + "<br>" feature.properties.hours + "</br>");
-    layer.setIcon(myIcon);
+    layer.bindPopup("<h3>" + feature.properties.Laboratorio +
+      "</h3><br>" + feature.properties.ADDRESS + "</br>" + "<br>" + feature.properties.City + "</br>"+ "<br>" +
+      feature.properties.Hours + "</br>" + "<br>" + feature.properties.Fax + "</br>" );
+    layer.setIcon(RxIcon);
 }
 
 // read the Json file

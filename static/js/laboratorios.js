@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <style>
-    body {
-  padding: 0;
-  margin: 0;
-}
-html, body, #map {
-  height: 100%;
-  width: 100vw;
-}
-
-#mapid { height: 180px; }
-
-  </style>
-
-</head>
-
-<body>
-<div class="dropup">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu" >
-    <li><a href="index.html">Laboratorios: Pruebas COVID-19</a></li>
-   // <li><a href="foodbanks.html">Food Banks</a></li>
-   // <li><a href="seniors.html">Resources for seniors</a></li>
-  </ul>
-</div>	
-	
-  <div id="map"></div>
-<script>
-var map = L.map('map').fitWorld();
-
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
    maxZoom: 18,
@@ -569,12 +530,3 @@ L.geoJson(pharmacies, {
 }).addTo(map);
 
 
-</script>
-
-<!-- Json file -->
-
-// EDIT THIS BELOW
-//<!-- <script type="text/javascript" src="Geojsonrest.js"></script> -->
-</body>
-
-</html>

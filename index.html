@@ -187,7 +187,7 @@ map.on('locationerror', onLocationError);
 	fillOpacity: 0.8
 };
 // start of data////////////////////////////////////////////////////////////////////////
-var geoJsonRx = 
+var geoJsonLabs = 
    {
    "type": "FeatureCollection",
    "features": [
@@ -661,8 +661,8 @@ var geoJsonRx =
 
     
 //change icon name here///////////////////////////////////////////////////////////////    
-var RxIcon = new L.Icon({
-    iconUrl: "img/icons8-pharmacy-30.png",
+var LabIcon = new L.Icon({
+    iconUrl: "icons8-syringe-64.png",
     iconSize: [25, 25],
     iconAnchor: [22, 94],
     popupAnchor: [-3, -76]
@@ -673,11 +673,11 @@ function createFeatures (feature,layer){
     layer.bindPopup("<h3>" + feature.properties.Laboratorio +
       "</h3><br>" + feature.properties.ADDRESS + "</br>" + "<br>" + feature.properties.City + "</br>"+ "<br>" +
       feature.properties.Hours + "</br>" + "<br>" + feature.properties.Fax + "</br>" );
-    layer.setIcon(RxIcon);
+    layer.setIcon(LabIcon);
 }
 
 // read the Json file
-L.geoJson(geoJsonRx, {
+L.geoJson(geoJsonLabs, {
 	// pointToLayer: function (feature, latlng) {
 	// 	return L.circleMarker(latlng, geojsonMarkerOptions);
   // }
@@ -694,6 +694,7 @@ L.geoJson(geoJsonRx, {
 Copyright: 
 	<p>Coalición Comunitaria Covid-19 PR     cc.covidpr@gmail.com </p> 
 	<p>Data Science Consultants, LLC         Data.Science.LLC@gmail.com </p>
+	<p> icons by icons8.com </p>
   </footer>
 
 </html>

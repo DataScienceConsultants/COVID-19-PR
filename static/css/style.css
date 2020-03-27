@@ -12,6 +12,7 @@ html {
 header {
   /* Set text alignment to center */
   text-align: center;
+  height: 42px
  }
 
 main {

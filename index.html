@@ -673,7 +673,7 @@ var LabIcon = new L.Icon({
 function createFeatures (feature,layer){
     layer.bindPopup("<h3>" + feature.properties.Laboratorio +
       "</h3><br>" + feature.properties.ADDRESS + "</br>" + "<br>" + feature.properties.City + "</br>"+ "<br>" +
-      feature.properties.Hours + "</br>" + "<br>" + feature.properties.Fax + "</br>" );
+      feature.properties.Hours + "</br>" + "<br>" + feature.properties.Phone + "</br>" + "<br>" + feature.properties.Fax + "</br>" );
     layer.setIcon(LabIcon);
 }
 

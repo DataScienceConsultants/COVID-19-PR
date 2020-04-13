@@ -129,17 +129,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 @media screen and (max-width: 767px) {
 	.flexbox_container {height: auto!important;}
 	.main_header {visibility: hidden; display: none;}
-	.alt_header_mobile {
-		visibility: visible;
-		display: inline-block;
-		background-image: url("../../img/bg_blk.jpg");
-		background-size: cover;
-		height: 50vh;
-		width: 100%;
-
-		border-top: 20px solid #dcd06f;
-		border-bottom: 20px solid #5e7a96;
-	}
+	
 	.grid_galerie_area {
 		height: auto;
 		grid-template-columns: 1fr;

@@ -76,9 +76,9 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	border-top: 20px solid #dcd06f;
 	border-bottom: 20px solid #5e7a96;
 }
-@media screen and (-webkit-device-pixel-ratio) {
+	@media screen and (-webkit-device-pixel-ratio) {
 		.main_header { background-image: url("../../img/bg_blk.jpg"); }
-	}	
+	}
 .main_header span {
 	font-size: 75%;
 	line-height: 20px;
@@ -86,7 +86,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 /*MENU AREA*/
 .current_page {border-bottom: 1px solid #dcd06f;}
-
+.alt_header_mobile {visibility: hidden; visibility: none;}
 .flexbox_container img { display: inline; }
 .flexbox_container { display: flex; height: 150px; justify-content: space-between; }
 .flexbox_item: {}
@@ -102,9 +102,9 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	}
 	.flexbox_item_menu ul:hover {background-color: #dcd06f;}
 	.flexbox_item_logo img { height: 150px; width: 150px; }
-	 @media screen and (max-width: 321px) {
+	@media screen and (max-width: 321px) {
 		.flexbox_item_menu ul{font-size: 18px;}
-		
+		.footer_area p {padding-left: auto; padding-right: auto;}
 	}
 	@media screen and (max-width: 413px) {
 		.flexbox_container {flex-direction: column; height: 45vh!important;}
@@ -123,13 +123,23 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 		.main_header {border: none;}
 	}
 /*CONTENT AREA*/
-
-	
-
+@media screen and (max-width: 565px) {
+	.footer_area {position: absolute; bottom: 0px;}
+}
 @media screen and (max-width: 767px) {
 	.flexbox_container {height: auto!important;}
 	.main_header {visibility: hidden; display: none;}
-	
+	.alt_header_mobile {
+		visibility: visible;
+		display: inline-block;
+		
+		background-size: cover;
+		height: 50vh;
+		width: 100%;
+
+		border-top: 20px solid #dcd06f;
+		border-bottom: 20px solid #5e7a96;
+	}
 	.grid_galerie_area {
 		height: auto;
 		grid-template-columns: 1fr;
@@ -149,8 +159,11 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 		margin-bottom: 0!important;
 	}
 	.grid_galerie_item:last-of-type {margin-bottom: 5vw!important;}
-	
-
+	.footer_area {
+		background-color: rgba(255,255,255,.5);
+	}
+		.footer_area p {color: #5e7a96;}
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.main_header {border-top: 10px solid #dcd06f; border-bottom: 10px solid #5e7a96;}
 }
@@ -249,7 +262,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	}
 	@media screen and (max-width: 910px) {
 		.grid_contact_item {zoom: 80%;}
-		
+		.footer_area p {padding-left: 30px; padding-right: 30px;}
 	}
 	@media screen and (max-width: 885px) {
 		.grid_contact_area {
@@ -294,8 +307,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 /*FOOTER AREA*/
 .footer_area {
-	position: absolute;
-        width: 100%;
+	width: 100%;
 	text-align: center;
 	color: #5e7a96;
 	bottom: 0px;

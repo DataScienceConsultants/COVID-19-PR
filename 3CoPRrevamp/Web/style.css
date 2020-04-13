@@ -100,7 +100,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	}
 	.flexbox_item_menu ul:hover {background-color: #dcd06f;}
 	.flexbox_item_logo img { height: 150px; width: 150px; }
-	@media screen and (max-width: 321px) {
+	/* @media screen and (max-width: 321px) {
 		.flexbox_item_menu ul{font-size: 18px;}
 		
 	}
@@ -119,12 +119,12 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 		.flexbox_item_menu {text-align: center; margin-top: 20px;}
 		.flexbox_container {height: 30vh; width: auto; margin-left: auto; margin-right: auto;}
 		.main_header {border: none;}
-	}
+	}*/
 /*CONTENT AREA*/
 
 	
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
 	.flexbox_container {height: auto!important;}
 	.main_header {visibility: hidden; display: none;}
 	
@@ -151,7 +151,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.main_header {border-top: 10px solid #dcd06f; border-bottom: 10px solid #5e7a96;}
-}
+}*/
 	/*GALERIE AREA*/
 	.grid_galerie_area {
 		display: grid;
@@ -234,7 +234,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	}
 	
 
-	@media screen and (max-width: 1165px) {
+	/*@media screen and (max-width: 1165px) {
 		.grid_contact_item {
 			grid-row-end: auto;
 			min-width: 288px;
@@ -272,7 +272,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 			grid-row-end: 16;
 
 			min-height: 320px;
-		}
+		}*/
 		/*START ABOUT PAGE -885px*/
 		.about_page .contact_item1 {min-height: 230px; max-height: 310px;}
 		/*END ABOUT PAGE -885px*/

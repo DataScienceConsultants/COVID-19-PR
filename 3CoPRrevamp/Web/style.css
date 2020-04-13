@@ -126,7 +126,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 	
 
-/*@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.flexbox_container {height: auto!important;}
 	.main_header {visibility: hidden; display: none;}
 	
@@ -153,7 +153,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.main_header {border-top: 10px solid #dcd06f; border-bottom: 10px solid #5e7a96;}
-}*/
+}
 	/*GALERIE AREA*/
 	.grid_galerie_area {
 		display: grid;

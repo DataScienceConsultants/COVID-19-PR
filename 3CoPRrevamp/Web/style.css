@@ -76,7 +76,9 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	border-top: 20px solid #dcd06f;
 	border-bottom: 20px solid #5e7a96;
 }
-	
+@media screen and (-webkit-device-pixel-ratio) {
+		.main_header { background-image: url("../../img/bg_blk.jpg"); }
+	}	
 .main_header span {
 	font-size: 75%;
 	line-height: 20px;

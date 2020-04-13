@@ -294,6 +294,10 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 /*FOOTER AREA*/
 .footer_area {
+	position: absolute;
+        left: 0;
+        bottom: 0;
+	height:100px;
 	width: 100%;
 	text-align: center;
 	color: #5e7a96;

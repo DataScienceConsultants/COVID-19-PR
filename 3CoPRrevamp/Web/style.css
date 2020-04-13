@@ -133,7 +133,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	.flexbox_container {height: auto!important;}
 	.main_header {visibility: hidden; display: none;}
 	
-	/*.alt_header_mobile {
+	.alt_header_mobile {
 		visibility: visible;
 		display: inline-block;
 		
@@ -143,7 +143,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 		border-top: 20px solid #dcd06f;
 		border-bottom: 20px solid #5e7a96;
-	}*/
+	}
 	
 	.grid_galerie_area {
 		height: auto;

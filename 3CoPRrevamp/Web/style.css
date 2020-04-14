@@ -124,7 +124,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 	}
 /*CONTENT AREA*/
 @media screen and (max-width: 565px) {
-	.footer_area {position: absolute; bottom: 0px;}
+	.footer_area {position: fixed; bottom: 0px;}
 }
 @media screen and (max-width: 767px) {
 	.flexbox_container {height: auto!important;}
@@ -307,6 +307,7 @@ body h1, body h2, body h3, body h4 { font-family: 'Bitter', serif; color: #17171
 
 /*FOOTER AREA*/
 .footer_area {
+	position:fixed;
 	width: 100%;
 	text-align: center;
 	color: #5e7a96;
